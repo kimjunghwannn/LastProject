@@ -330,13 +330,16 @@ SWIFT_CLASS("_TtC11LastProject13SceneDelegate")
 
 
 
+@class UITextView;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11LastProject14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextViewDelegate>
 - (void)viewDidLoad;
+- (void)textViewDidBeginEditing:(UITextView * _Nonnull)textView;
+- (void)textViewDidEndEditing:(UITextView * _Nonnull)textView;
 - (void)showContentView;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

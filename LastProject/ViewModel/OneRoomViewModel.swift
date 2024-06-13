@@ -11,7 +11,7 @@ import SWXMLHash
 class OneRoomViewModel: ObservableObject {
     @Published var rooms: [OneRoom] = []
     private var cancellables = Set<AnyCancellable>()
-    
+    static let shared = OneRoomViewModel()
     func fetchRooms(lawdCd: String){
         let apiUrl = "http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHRent"
         let serviceKey = "OFnJLWtAPRyGRjRKBV%2FKNzwcpO20mUhwbUsVZrALLP%2FXOHQxpztDN0womM7gXTn9XPFHkLB%2BYMZBWxoQLN9CKA%3D%3D"
