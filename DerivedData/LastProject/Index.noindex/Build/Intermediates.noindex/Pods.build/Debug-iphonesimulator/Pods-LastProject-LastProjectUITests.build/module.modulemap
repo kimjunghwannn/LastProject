@@ -1,0 +1,6 @@
+framework module Pods_LastProject_LastProjectUITests {
+  umbrella header "Pods-LastProject-LastProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

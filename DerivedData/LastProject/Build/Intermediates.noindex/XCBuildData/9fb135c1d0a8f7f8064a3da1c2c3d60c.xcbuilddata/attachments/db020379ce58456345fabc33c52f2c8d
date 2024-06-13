@@ -1,0 +1,268 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/SWXMLHash-master.dia",
+    "emit-module-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/SWXMLHash-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/SWXMLHash-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/SWXMLHash-master.swiftdeps"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLAttributeDeserializable.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttributeDeserializable.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttributeDeserializable.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttributeDeserializable.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttributeDeserializable.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttributeDeserializable.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttributeDeserializable.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttributeDeserializable.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttributeDeserializable~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLElementDeserializable.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElementDeserializable.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElementDeserializable.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElementDeserializable.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElementDeserializable.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElementDeserializable.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElementDeserializable.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElementDeserializable.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElementDeserializable~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLIndexer+XMLDeserialization.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer+XMLDeserialization.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer+XMLDeserialization.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer+XMLDeserialization.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer+XMLDeserialization.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer+XMLDeserialization.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer+XMLDeserialization.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer+XMLDeserialization.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer+XMLDeserialization~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLObjectDeserialization.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLValueDeserialization.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Bool+XMLDeserialization.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Double+XMLDeserialization.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Double+XMLDeserialization.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Double+XMLDeserialization.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Double+XMLDeserialization.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Double+XMLDeserialization.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Double+XMLDeserialization.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Double+XMLDeserialization.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Double+XMLDeserialization.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Double+XMLDeserialization~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Float+XMLDeserialization.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Float+XMLDeserialization.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Float+XMLDeserialization.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Float+XMLDeserialization.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Float+XMLDeserialization.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Float+XMLDeserialization.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Float+XMLDeserialization.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Float+XMLDeserialization.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Float+XMLDeserialization~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Int+XMLDeserialization.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Int+XMLDeserialization.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Int+XMLDeserialization.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Int+XMLDeserialization.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Int+XMLDeserialization.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Int+XMLDeserialization.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Int+XMLDeserialization.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Int+XMLDeserialization.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Int+XMLDeserialization~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/String+XMLDeserialization.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+XMLDeserialization.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+XMLDeserialization.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+XMLDeserialization.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+XMLDeserialization.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+XMLDeserialization.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+XMLDeserialization.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+XMLDeserialization.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+XMLDeserialization~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/IndexingError.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexingError.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexingError.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexingError.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexingError.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexingError.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexingError.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexingError.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexingError~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/ParsingError.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/ParsingError.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/ParsingError.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/ParsingError.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/ParsingError.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/ParsingError.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/ParsingError.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/ParsingError.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/ParsingError~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/XMLDeserializationError.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLDeserializationError.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLDeserializationError.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLDeserializationError.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLDeserializationError.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLDeserializationError.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLDeserializationError.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLDeserializationError.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLDeserializationError~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/FullXMLParser.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/FullXMLParser.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/FullXMLParser.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/FullXMLParser.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/FullXMLParser.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/FullXMLParser.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/FullXMLParser.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/FullXMLParser.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/FullXMLParser~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/IndexOp.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexOp.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexOp.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexOp.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexOp.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexOp.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexOp.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexOp.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/IndexOp~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/LazyXMLParser.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/LazyXMLParser.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/LazyXMLParser.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/LazyXMLParser.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/LazyXMLParser.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/LazyXMLParser.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/LazyXMLParser.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/LazyXMLParser.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/LazyXMLParser~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/shim.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/shim.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/shim.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/shim.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/shim.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/shim.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/shim.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/shim.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/shim~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Stack.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Stack.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Stack.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Stack.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Stack.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Stack.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Stack.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Stack.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Stack~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/String+Extensions.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+Extensions.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+Extensions.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+Extensions.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+Extensions.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+Extensions.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+Extensions.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/String+Extensions~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/TextElement.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/TextElement.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/TextElement.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/TextElement.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/TextElement.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/TextElement.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/TextElement.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/TextElement.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/TextElement~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLAttribute.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttribute.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttribute.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttribute.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttribute.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttribute.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttribute.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttribute.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLAttribute~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLContent.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLContent.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLContent.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLContent.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLContent.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLContent.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLContent.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLContent.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLContent~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLElement.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElement.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElement.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElement.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElement.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElement.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElement.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElement.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLElement~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLHash.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHash.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHash.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHash.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHash.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHash.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHash.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHash.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHash~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLHashOptions.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHashOptions.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHashOptions.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHashOptions.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHashOptions.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHashOptions.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHashOptions.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHashOptions.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLHashOptions~partial.swiftmodule"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLIndexer.swift" : {
+    "const-values" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer.swiftconstvalues",
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer.dia",
+    "index-unit-output-path" : "/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer.o",
+    "llvm-bc" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer.bc",
+    "object" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer.o",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer.swiftdeps",
+    "swiftmodule" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLIndexer~partial.swiftmodule"
+  }
+}

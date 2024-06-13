@@ -1,0 +1,21 @@
+Target dependency graph (12 targets)
+Target 'LastProjectUITests' in project 'LastProject' (no dependencies)
+Target 'LastProjectUITests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+Target 'LastProjectUITests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+Target 'LastProjectTests' in project 'LastProject' (no dependencies)
+Target 'LastProjectTests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+Target 'LastProjectTests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+Target 'LastProject' in project 'LastProject'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash' (no dependencies)
+Target 'LastProject' in project 'LastProject'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash' (no dependencies)

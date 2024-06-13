@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-maccatalyst/LastProjectUITests.build/Objects-normal/x86_64/LastProjectUITests-master.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-maccatalyst/LastProjectUITests.build/Objects-normal/x86_64/LastProjectUITests-master.dia",
+    "emit-module-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-maccatalyst/LastProjectUITests.build/Objects-normal/x86_64/LastProjectUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-maccatalyst/LastProjectUITests.build/Objects-normal/x86_64/LastProjectUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-maccatalyst/LastProjectUITests.build/Objects-normal/x86_64/LastProjectUITests-master.swiftdeps"
+  },
+  "/Users/mac040/Desktop/project/LastProject/LastProjectUITests/LastProjectUITests.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/LastProjectUITests/LastProjectUITestsLaunchTests.swift" : {
+
+  }
+}

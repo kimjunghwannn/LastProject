@@ -1,0 +1,4 @@
+module SWXMLHash {
+header "SWXMLHash-Swift.h"
+export *
+}

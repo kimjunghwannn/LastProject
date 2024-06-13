@@ -1,0 +1,87 @@
+{
+  "" : {
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphoneos/SWXMLHash.build/Objects-normal/arm64/SWXMLHash-master.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphoneos/SWXMLHash.build/Objects-normal/arm64/SWXMLHash-master.dia",
+    "emit-module-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphoneos/SWXMLHash.build/Objects-normal/arm64/SWXMLHash-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphoneos/SWXMLHash.build/Objects-normal/arm64/SWXMLHash-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphoneos/SWXMLHash.build/Objects-normal/arm64/SWXMLHash-master.swiftdeps"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLAttributeDeserializable.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLElementDeserializable.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLIndexer+XMLDeserialization.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLObjectDeserialization.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLValueDeserialization.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Bool+XMLDeserialization.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Double+XMLDeserialization.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Float+XMLDeserialization.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Int+XMLDeserialization.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/String+XMLDeserialization.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/IndexingError.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/ParsingError.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/XMLDeserializationError.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/FullXMLParser.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/IndexOp.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/LazyXMLParser.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/shim.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Stack.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/String+Extensions.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/TextElement.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLAttribute.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLContent.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLElement.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLHash.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLHashOptions.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLIndexer.swift" : {
+
+  }
+}

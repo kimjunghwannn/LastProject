@@ -1,0 +1,45 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "3b771650d983306a2bc7744fa68db94c298eff08ddec5fc533ca494469a180cb"
+build_start_time: [1718270773, 12860000]
+build_end_time: [1718270773, 769903000]
+inputs:
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLAttributeDeserializable.swift"
+  : [1718270765, 394387961]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLElementDeserializable.swift"
+  : [1718270765, 394547208]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLIndexer+XMLDeserialization.swift"
+  : [1718270765, 394740083]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLObjectDeserialization.swift"
+  : [1718270765, 395161568]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLValueDeserialization.swift"
+  : [1718270765, 395337163]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Bool+XMLDeserialization.swift"
+  : [1718270765, 395583487]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Double+XMLDeserialization.swift"
+  : [1718270765, 395766163]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Float+XMLDeserialization.swift"
+  : [1718270765, 395937111]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Int+XMLDeserialization.swift"
+  : [1718270765, 396072608]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/String+XMLDeserialization.swift"
+  : [1718270765, 396194844]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/IndexingError.swift"
+  : [1718270765, 396459598]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/ParsingError.swift"
+  : [1718270765, 396620226]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Errors/XMLDeserializationError.swift"
+  : [1718270765, 396758407]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/FullXMLParser.swift": [1718270765, 396934692]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/IndexOp.swift": [1718270765, 397144618]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/LazyXMLParser.swift": [1718270765, 397457030]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Stack.swift": [1718270765, 397736568]
+  ? "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/String+Extensions.swift"
+  : [1718270765, 397891361]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/TextElement.swift": [1718270765, 398102249]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLAttribute.swift": [1718270765, 398254399]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLContent.swift": [1718270765, 398383094]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLElement.swift": [1718270765, 398520997]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLHash.swift": [1718270765, 398670335]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLHashOptions.swift": [1718270765, 398816046]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/XMLIndexer.swift": [1718270765, 398990346]
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/shim.swift": [1718270765, 399181890]

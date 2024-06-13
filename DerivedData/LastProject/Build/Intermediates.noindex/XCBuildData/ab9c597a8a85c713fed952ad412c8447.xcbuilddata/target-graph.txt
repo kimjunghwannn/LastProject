@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'LastProject' in project 'LastProject' (no dependencies)

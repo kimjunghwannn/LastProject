@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'LastProject' in project 'LastProject'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash' (no dependencies)

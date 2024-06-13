@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "57461C1E6E3D14196B1310F838F970BC314ED78E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EB2210CFD48672E403BED699D5D7F01B844069CF" : 0,
+    "57461C1E6E3D14196B1310F838F970BC314ED78E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4EF5B7D5-AFF3-4CC1-B827-2F7AE5709F3A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EB2210CFD48672E403BED699D5D7F01B844069CF" : "LastProject\/DerivedData\/LastProject\/SourcePackages\/checkouts\/SWXMLHash\/",
+    "57461C1E6E3D14196B1310F838F970BC314ED78E" : "LastProject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LastProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LastProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kimjunghwannn\/LastProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57461C1E6E3D14196B1310F838F970BC314ED78E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/mac040\/Desktop\/project\/LastProject\/DerivedData\/LastProject\/SourcePackages\/repositories\/SWXMLHash-ff0954f2",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EB2210CFD48672E403BED699D5D7F01B844069CF"
+    }
+  ]
+}

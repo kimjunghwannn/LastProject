@@ -5,6 +5,7 @@ class ViewController: UIViewController {
     var mapView: MKMapView!
     var contentView: UIHostingController<ContentView>?
     var button: UIButton!
+    var textView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         setupButton()        // 지도를 생성합니다.
@@ -27,34 +28,49 @@ class ViewController: UIViewController {
         
         // 지도를 화면에 추가합니다.
         view.addSubview(mapView)
-        view.addSubview(button)        // 지도의 delegate를 설정합니다.
+        view.addSubview(button)
+        view.addSubview(textView)
+        // 지도의 delegate를 설정합니다.
         mapView.delegate = self
     }
     func setupButton() {
-        // 버튼 생성
-        button = UIButton(type: .system)
-        button.setTitle("Show ContentView", for: .normal)
-        button.addTarget(self, action: #selector(showContentView), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        // 버튼을 뷰에 추가
-            view.addSubview(button)
-                    // 버튼의 레이아웃 제약 설정
+            // 버튼 생성
+            button = UIButton(type: .system)
+            button.setTitle("해당 동에 원룸 보기", for: .normal)
+            button.addTarget(self, action: #selector(showContentView), for: .touchUpInside)
+            button.translatesAutoresizingMaskIntoConstraints = false
+            
+            // 텍스트뷰 생성
+            textView = UITextView()
+            textView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(button)
+        view.addSubview(textView)            // 버튼과 텍스트뷰의 레이아웃 제약 설정
         NSLayoutConstraint.activate([
                button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-               button.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 100) // 수직으로 view의 가운데에서 100포인트 아래에 위치
+               button.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20), // 아래로 이동
+               textView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+               textView.bottomAnchor.constraint(equalTo: button.topAnchor, constant: -20), // 버튼 위에 위치하도록 설정
+               textView.widthAnchor.constraint(equalTo: button.widthAnchor),
+               textView.heightAnchor.constraint(equalTo: button.heightAnchor)
            ])
-    }
+        }
     
     @objc func showContentView() {
-        // 버튼이 탭되었을 때 ContentView를 생성하고 화면에 추가합니다.
         if contentView == nil {
-                let hostingController = UIHostingController(rootView: ContentView())
-                addChild(hostingController)
-                hostingController.view.frame = view.bounds
-                view.addSubview(hostingController.view)
-                hostingController.didMove(toParent: self)
-                contentView = hostingController
-            }   }
+            let contentView = ContentView(text: textView.text, dismissAction: {
+                self.contentView?.willMove(toParent: nil)
+                self.contentView?.view.removeFromSuperview()
+                self.contentView?.removeFromParent()
+                self.contentView = nil
+            })
+            let hostingController = UIHostingController(rootView: contentView)
+            addChild(hostingController)
+            hostingController.view.frame = view.bounds
+            view.addSubview(hostingController.view)
+            hostingController.didMove(toParent: self)
+            self.contentView = hostingController
+        }
+    }
 }
 
 extension ViewController: MKMapViewDelegate {

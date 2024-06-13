@@ -7,14 +7,14 @@
 
 import Foundation
 import Combine
+import SWXMLHash
 class OneRoomViewModel: ObservableObject {
     @Published var rooms: [OneRoom] = []
     private var cancellables = Set<AnyCancellable>()
     
-    func fetchRooms() {
+    func fetchRooms(lawdCd: String){
         let apiUrl = "http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHRent"
         let serviceKey = "OFnJLWtAPRyGRjRKBV%2FKNzwcpO20mUhwbUsVZrALLP%2FXOHQxpztDN0womM7gXTn9XPFHkLB%2BYMZBWxoQLN9CKA%3D%3D"
-        let lawdCd = "11110" // 예시로 LAWD_CD 값을 넣습니다.
         let dealYmd = "201512" // 예시로 DEAL_YMD 값을 넣습니다.
         
         let queryParams = "?serviceKey=\(serviceKey)&LAWD_CD=\(lawdCd)&DEAL_YMD=\(dealYmd)"
@@ -23,31 +23,38 @@ class OneRoomViewModel: ObservableObject {
             print("Invalid URL")
             return
         }
-        URLSession.shared.dataTaskPublisher(for: url)
-            .map { $0.data }
-            .tryMap { data in
-                do {
-                    let decoder = XMLDecoder()
-                    let response = try decoder.decode(ApiResponse.self, from: data)
-                    return response
-                } catch {
-                    throw error
-                }
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            // Check for errors
+            if let error = error {
+                print("Network request error: \(error)")
+                return
             }
-            .receive(on: DispatchQueue.main)
-            .sink(receiveCompletion: { completion in
-                switch completion {
-                case .failure(let error):
-                    print("Error fetching data: \(error)")
-                case .finished:
-                    break
+
+            // Check if data is available
+            guard let data = data else {
+                print("No data received")
+                return
+            }
+
+            // Decode XML data into ApiResponse
+            do {
+                let xml = XMLHash.parse(data)
+                let apiResponse = try xml["response"]["body"]["items"]["item"].all.map { item -> OneRoom in
+                    return OneRoom(
+                        id: UUID().uuidString,
+                        jibun: item["지번"].element?.text ?? "",
+                        mothly_rent: Int(item["월세금액"].element?.text ?? "") ?? 0,
+                        name: item["연립다세대"].element?.text ?? "",
+                        dong: item["법정동"].element?.text ?? ""
+                    )
                 }
-            }, receiveValue: { response in
-                self.rooms = response.items.map {
-                    OneRoom(id: UUID().uuidString, jibun: $0.jibun, mothly_rent: Int($0.monthlyRent) ?? 0, name: $0.name, dong: $0.dong)
-                }
-            })
-            .store(in: &cancellables)
+
+                // Handle successfully decoded response
+                self.rooms = apiResponse
+            } catch {
+                print("Error parsing XML: \(error)")
+            }
+        }.resume()
     }
 }
 

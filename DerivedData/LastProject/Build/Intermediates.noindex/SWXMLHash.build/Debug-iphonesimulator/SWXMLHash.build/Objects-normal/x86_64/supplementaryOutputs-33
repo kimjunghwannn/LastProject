@@ -1,0 +1,18 @@
+"/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLValueDeserialization.swift":
+  diagnostics: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.dia"
+  swift-dependencies: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.swiftdeps"
+  object: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.o"
+  dependencies: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.d"
+  const-values: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLValueDeserialization.swiftconstvalues"
+"/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/DeserializationTypes/Bool+XMLDeserialization.swift":
+  object: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.o"
+  diagnostics: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.dia"
+  swift-dependencies: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.swiftdeps"
+  dependencies: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.d"
+  const-values: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/Bool+XMLDeserialization.swiftconstvalues"
+"/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/SourcePackages/checkouts/SWXMLHash/Source/Deserialization/XMLObjectDeserialization.swift":
+  diagnostics: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.dia"
+  const-values: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.swiftconstvalues"
+  swift-dependencies: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.swiftdeps"
+  dependencies: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.d"
+  object: "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex/SWXMLHash.build/Debug-iphonesimulator/SWXMLHash.build/Objects-normal/x86_64/XMLObjectDeserialization.o"
