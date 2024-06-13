@@ -1,0 +1,30 @@
+{
+  "" : {
+    "dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-iphonesimulator/LastProject.build/Objects-normal/x86_64/LastProject-master.d",
+    "diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-iphonesimulator/LastProject.build/Objects-normal/x86_64/LastProject-master.dia",
+    "emit-module-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-iphonesimulator/LastProject.build/Objects-normal/x86_64/LastProject-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-iphonesimulator/LastProject.build/Objects-normal/x86_64/LastProject-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-iphonesimulator/LastProject.build/Objects-normal/x86_64/LastProject-master.swiftdeps"
+  },
+  "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/LastProject.build/Debug-iphonesimulator/LastProject.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/LastProject/AppDelegate.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/LastProject/Models/OneRoom.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/LastProject/SceneDelegate.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/LastProject/View/ContentView.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/LastProject/ViewController.swift" : {
+
+  },
+  "/Users/mac040/Desktop/project/LastProject/LastProject/ViewModel/OneRoomViewModel.swift" : {
+
+  }
+}

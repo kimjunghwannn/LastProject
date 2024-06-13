@@ -16,6 +16,9 @@
 		AAF5DDA52C1AD2E600209B0D /* LastProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5DDA42C1AD2E600209B0D /* LastProjectTests.swift */; };
 		AAF5DDAF2C1AD2E600209B0D /* LastProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5DDAE2C1AD2E600209B0D /* LastProjectUITests.swift */; };
 		AAF5DDB12C1AD2E600209B0D /* LastProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5DDB02C1AD2E600209B0D /* LastProjectUITestsLaunchTests.swift */; };
+		AAF5DDBF2C1ADDF300209B0D /* OneRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5DDBE2C1ADDF300209B0D /* OneRoom.swift */; };
+		AAF5DDC22C1ADF9A00209B0D /* OneRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5DDC12C1ADF9A00209B0D /* OneRoomViewModel.swift */; };
+		AAF5DDC52C1AE0D200209B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5DDC42C1AE0D200209B0D /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		AAF5DDAA2C1AD2E600209B0D /* LastProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF5DDAE2C1AD2E600209B0D /* LastProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastProjectUITests.swift; sourceTree = "<group>"; };
 		AAF5DDB02C1AD2E600209B0D /* LastProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAF5DDBE2C1ADDF300209B0D /* OneRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRoom.swift; sourceTree = "<group>"; };
+		AAF5DDC12C1ADF9A00209B0D /* OneRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRoomViewModel.swift; sourceTree = "<group>"; };
+		AAF5DDC42C1AE0D200209B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		AAF5DD8C2C1AD2E300209B0D /* LastProject */ = {
 			isa = PBXGroup;
 			children = (
+				AAF5DDC32C1AE0BE00209B0D /* View */,
+				AAF5DDC02C1ADF7A00209B0D /* ViewModel */,
+				AAF5DDBD2C1ADD9200209B0D /* Models */,
 				AAF5DD8D2C1AD2E300209B0D /* AppDelegate.swift */,
 				AAF5DD8F2C1AD2E300209B0D /* SceneDelegate.swift */,
 				AAF5DD912C1AD2E300209B0D /* ViewController.swift */,
@@ -125,6 +134,30 @@
 				AAF5DDB02C1AD2E600209B0D /* LastProjectUITestsLaunchTests.swift */,
 			);
 			path = LastProjectUITests;
+			sourceTree = "<group>";
+		};
+		AAF5DDBD2C1ADD9200209B0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5DDBE2C1ADDF300209B0D /* OneRoom.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAF5DDC02C1ADF7A00209B0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5DDC12C1ADF9A00209B0D /* OneRoomViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AAF5DDC32C1AE0BE00209B0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5DDC42C1AE0D200209B0D /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +293,10 @@
 			files = (
 				AAF5DD922C1AD2E300209B0D /* ViewController.swift in Sources */,
 				AAF5DD8E2C1AD2E300209B0D /* AppDelegate.swift in Sources */,
+				AAF5DDC52C1AE0D200209B0D /* ContentView.swift in Sources */,
 				AAF5DD902C1AD2E300209B0D /* SceneDelegate.swift in Sources */,
+				AAF5DDC22C1ADF9A00209B0D /* OneRoomViewModel.swift in Sources */,
+				AAF5DDBF2C1ADDF300209B0D /* OneRoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

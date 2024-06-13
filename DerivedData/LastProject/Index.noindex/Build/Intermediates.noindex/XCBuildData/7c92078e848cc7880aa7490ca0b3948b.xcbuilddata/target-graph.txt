@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Target 'LastProjectUITests' in project 'LastProject' (no dependencies)
+Target 'LastProjectUITests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+Target 'LastProjectUITests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+Target 'LastProjectTests' in project 'LastProject' (no dependencies)
+Target 'LastProjectTests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+Target 'LastProjectTests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+Target 'LastProject' in project 'LastProject' (no dependencies)
+Target 'LastProject' in project 'LastProject' (no dependencies)

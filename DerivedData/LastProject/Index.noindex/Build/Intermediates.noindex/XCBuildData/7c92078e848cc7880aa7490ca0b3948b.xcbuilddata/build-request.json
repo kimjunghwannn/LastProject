@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "5c1e2da124efeb105218e6de8af05334793b28c581307f3e056883be1ddf8cc6"
+    },
+    {
+      "guid" : "5c1e2da124efeb105218e6de8af053345fbac93970f23153064db2cb028f6b2d"
+    },
+    {
+      "guid" : "5c1e2da124efeb105218e6de8af05334c75426e6c698f70b7f1019a5ab5620f6"
+    }
+  ],
+  "containerPath" : "/Users/mac040/Desktop/project/LastProject/LastProject.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/mac040/Desktop/project/LastProject/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Build/Products",
+      "pchPath" : "/Users/mac040/Desktop/project/LastProject/DerivedData/LastProject/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
