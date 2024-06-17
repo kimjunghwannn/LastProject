@@ -340,6 +340,7 @@ SWIFT_CLASS("_TtC11LastProject13SceneDelegate")
 SWIFT_CLASS("_TtC11LastProject14ViewController")
 @interface ViewController : UIViewController <UITextViewDelegate>
 - (void)viewDidLoad;
+- (void)searchButtonTapped;
 - (void)textViewDidBeginEditing:(UITextView * _Nonnull)textView;
 - (void)textViewDidEndEditing:(UITextView * _Nonnull)textView;
 - (void)showContentView;

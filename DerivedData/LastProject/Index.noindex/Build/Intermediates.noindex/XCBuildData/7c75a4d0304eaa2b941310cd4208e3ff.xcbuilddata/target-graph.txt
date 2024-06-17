@@ -1,0 +1,41 @@
+Target dependency graph (21 targets)
+Target 'LastProjectUITests' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProject-LastProjectUITests' in project 'Pods' via file 'Pods_LastProject_LastProjectUITests.framework' in build phase 'Link Binary'
+Target 'Pods-LastProject-LastProjectUITests' in project 'Pods' (no dependencies)
+Target 'LastProjectUITests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProject-LastProjectUITests' in project 'Pods' via file 'Pods_LastProject_LastProjectUITests.framework' in build phase 'Link Binary'
+Target 'Pods-LastProject-LastProjectUITests' in project 'Pods' (no dependencies)
+Target 'LastProjectUITests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProject-LastProjectUITests' in project 'Pods' via file 'Pods_LastProject_LastProjectUITests.framework' in build phase 'Link Binary'
+Target 'Pods-LastProject-LastProjectUITests' in project 'Pods' (no dependencies)
+Target 'LastProjectTests' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProjectTests' in project 'Pods' via file 'Pods_LastProjectTests.framework' in build phase 'Link Binary'
+Target 'Pods-LastProjectTests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-LastProject' in project 'Pods'
+Target 'Pods-LastProject' in project 'Pods' (no dependencies)
+Target 'LastProjectTests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProjectTests' in project 'Pods' via file 'Pods_LastProjectTests.framework' in build phase 'Link Binary'
+Target 'Pods-LastProjectTests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-LastProject' in project 'Pods'
+Target 'LastProjectTests' in project 'LastProject'
+➜ Explicit dependency on target 'LastProject' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProjectTests' in project 'Pods' via file 'Pods_LastProjectTests.framework' in build phase 'Link Binary'
+Target 'Pods-LastProjectTests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-LastProject' in project 'Pods'
+Target 'LastProject' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProject' in project 'Pods' via file 'Pods_LastProject.framework' in build phase 'Link Binary'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash' (no dependencies)
+Target 'Pods-LastProject' in project 'Pods' (no dependencies)
+Target 'LastProject' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProject' in project 'Pods' via file 'Pods_LastProject.framework' in build phase 'Link Binary'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash' (no dependencies)
+Target 'Pods-LastProject' in project 'Pods' (no dependencies)

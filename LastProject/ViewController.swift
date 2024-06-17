@@ -7,36 +7,93 @@ class ViewController: UIViewController , UITextViewDelegate{
     var contentView: UIHostingController<ContentView>?
     var button: UIButton!
     var textView: UITextView!
+    var textViewLa: UITextView!
+    var textViewS: UITextView!
     let placeholder = "구검색 예: 강동구"
     @ObservedObject private var viewModel = OneRoomViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupButton()        // 지도를 생성합니다.
-        mapView = MKMapView(frame: view.bounds)
-        
-       
-        
-        
-        
-        
-        // 지도의 표시 영역을 설정합니다. (한국 기준)
-        let initialLocation = CLLocation(latitude: 37.5665, longitude: 126.9780)
-        let regionRadius: CLLocationDistance = 10000 // 10km 반경
-        let coordinateRegion = MKCoordinateRegion(center: initialLocation.coordinate,
-                                                  latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
-        mapView.setRegion(coordinateRegion, animated: true)
-        
-        // 현재 위치 표시를 활성화합니다.
-        mapView.showsUserLocation = true
-        
-        // 지도를 화면에 추가합니다.
-        view.addSubview(mapView)
-        view.addSubview(button)
-        view.addSubview(textView)
-        // 지도의 delegate를 설정합니다.
-        mapView.delegate = self
+        setupMapKitView()
+        setupTextView()
+        setupSerachTextView()
+        setupButton()
     }
-    func setupButton() {
+    func setupMapKitView() {
+            mapView = MKMapView()
+            mapView.translatesAutoresizingMaskIntoConstraints = false
+            
+            view.addSubview(mapView)
+            NSLayoutConstraint.activate([
+                mapView.topAnchor.constraint(equalTo: view.topAnchor),
+                mapView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+                mapView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+                mapView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5) // 화면 상단 절반 차지
+            ])
+            
+            let initialLocation = CLLocation(latitude: 37.5665, longitude: 126.9780)
+            let regionRadius: CLLocationDistance = 10000
+            let coordinateRegion = MKCoordinateRegion(center: initialLocation.coordinate,
+                                                      latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
+            mapView.setRegion(coordinateRegion, animated: true)
+            mapView.showsUserLocation = true
+            mapView.delegate = self
+        }
+    func setupTextView() {
+        textViewLa = UITextView()
+        textViewLa.translatesAutoresizingMaskIntoConstraints = false
+           textViewLa.isEditable = false
+    textViewLa.textColor = .black
+           textViewLa.textAlignment = .center
+           textViewLa.font = UIFont.systemFont(ofSize: 16)
+    textViewLa.text = "위도와 경도값이 나옵니다." // 초기 값 설정
+           
+           view.addSubview(textViewLa)
+           NSLayoutConstraint.activate([
+               textViewLa.topAnchor.constraint(equalTo: mapView.bottomAnchor, constant: 20), // MapKit 뷰 아래에 위치
+               textViewLa.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+               textViewLa.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+               textViewLa.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20)
+           ])
+       }
+    func setupSerachTextView() {
+           textViewS = UITextView()
+           textViewS.translatesAutoresizingMaskIntoConstraints = false
+           textViewS.delegate = self
+           textViewS.textColor = .black
+        textViewS.backgroundColor = .gray
+           textViewS.textAlignment = .center
+           textViewS.font = UIFont.systemFont(ofSize: 16)
+           textViewS.text = placeholder
+           
+           view.addSubview(textViewS)
+           NSLayoutConstraint.activate([
+               textViewS.topAnchor.constraint(equalTo: mapView.bottomAnchor, constant: 100), // MapKit 뷰 아래에 위치
+               textViewS.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 100),
+               textViewS.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -100),
+               textViewS.heightAnchor.constraint(equalToConstant: 40)
+           ])
+        
+        let searchButton = UIButton(type: .system)
+          searchButton.setTitle("해당 구에 원룸 지도에 띄우기", for: .normal)
+          searchButton.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
+          searchButton.translatesAutoresizingMaskIntoConstraints = false
+          
+          view.addSubview(searchButton)
+          NSLayoutConstraint.activate([
+              searchButton.topAnchor.constraint(equalTo: textViewS.bottomAnchor, constant: 20),
+              searchButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+              searchButton.widthAnchor.constraint(equalToConstant: 240),
+              searchButton.heightAnchor.constraint(equalToConstant: 40)
+          ])       }
+    @objc func searchButtonTapped() {
+        // 검색 버튼이 눌렸을 때 할 일 구현
+        // 예를 들어 viewModel.fetchRooms(lawdCd:)를 호출하는 등의 작업을 수행할 수 있습니다.
+        viewModel.fetchRooms(lawdCd: "11110")
+        addMarkersForRooms()
+    }
+    
+    
+        func setupButton() {
             // 버튼 생성
             button = UIButton(type: .system)
             button.setTitle("해당 구에 원룸 보기", for: .normal)
@@ -45,6 +102,7 @@ class ViewController: UIViewController , UITextViewDelegate{
             
             // 텍스트뷰 생성
             textView = UITextView()
+            textView.backgroundColor = .gray
             textView.translatesAutoresizingMaskIntoConstraints = false
         textView.delegate = self // UITextViewDelegate 설정
                textView.text = placeholder // 플레이스홀더 텍스트 설정
@@ -98,12 +156,11 @@ extension ViewController: MKMapViewDelegate {
     
     func printCenterAndStartEndLatitude(_ mapView: MKMapView) {
         let centerLatitude = mapView.region.center.latitude
-        let startLatitude = mapView.region.center.latitude - mapView.region.span.latitudeDelta / 2
-        let endLatitude = mapView.region.center.latitude + mapView.region.span.latitudeDelta / 2
         let centerCoordinate = mapView.region.center.longitude
-        let startCoordinate = centerCoordinate - mapView.region.span.longitudeDelta / 2
-        let endCoordinate = centerCoordinate + mapView.region.span.longitudeDelta / 2
-        print("Center Latitude: \(centerLatitude), Start Latitude: \(startLatitude), End Latitude: \(endLatitude), Cor: \(startCoordinate)  \(endCoordinate)")
+        // 위도와 경도 값을 텍스트뷰에 표시
+          let latitudeText = String(format: "위도: %.6f", centerLatitude)
+          let longitudeText = String(format: "경도: %.6f", centerCoordinate)
+          textViewLa.text = "\(latitudeText)\n\(longitudeText)"
         viewModel.fetchRooms(lawdCd: "11110")
         addMarkersForRooms()
     }

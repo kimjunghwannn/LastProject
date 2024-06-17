@@ -1,0 +1,15 @@
+Target dependency graph (8 targets)
+Target 'LastProject' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProject' in project 'Pods' via file 'Pods_LastProject.framework' in build phase 'Link Binary'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash' (no dependencies)
+Target 'Pods-LastProject' in project 'Pods' (no dependencies)
+Target 'LastProject' in project 'LastProject'
+➜ Implicit dependency on target 'Pods-LastProject' in project 'Pods' via file 'Pods_LastProject.framework' in build phase 'Link Binary'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash'
+➜ Explicit dependency on target 'SWXMLHash' in project 'SWXMLHash'
+Target 'SWXMLHash' in project 'SWXMLHash' (no dependencies)
+Target 'Pods-LastProject' in project 'Pods' (no dependencies)
