@@ -86,9 +86,35 @@ class ViewController: UIViewController , UITextViewDelegate{
               searchButton.heightAnchor.constraint(equalToConstant: 40)
           ])       }
     @objc func searchButtonTapped() {
-        // 검색 버튼이 눌렸을 때 할 일 구현
-        // 예를 들어 viewModel.fetchRooms(lawdCd:)를 호출하는 등의 작업을 수행할 수 있습니다.
-        viewModel.fetchRooms(lawdCd: "11110")
+        let regionMap: [String: String] = [
+            "종로구": "11110",
+            "중구": "11140",
+            "용산구": "11170",
+            "성동구": "11200",
+            "광진구": "11215",
+            "동대문구": "11230",
+            "중랑구": "11260",
+            "성북구": "11290",
+            "강북구": "11305",
+            "도봉구": "11320",
+            "노원구": "11350",
+            "은평구": "11380",
+            "서대문구": "11410",
+            "마포구": "11440",
+            "양천구": "11470",
+            "강서구": "11500",
+            "구로구": "11530",
+            "금천구": "11545",
+            "영등포구": "11560",
+            "동작구": "11590",
+            "관악구": "11620",
+            "서초구": "11650",
+            "강남구": "11680",
+            "송파구": "11710",
+            "강동구": "11740"
+        ]
+        let lawdCd = regionMap[textViewS.text] ?? ""
+        viewModel.fetchRooms(lawdCd:lawdCd)
         addMarkersForRooms()
     }
     
@@ -161,8 +187,8 @@ extension ViewController: MKMapViewDelegate {
           let latitudeText = String(format: "위도: %.6f", centerLatitude)
           let longitudeText = String(format: "경도: %.6f", centerCoordinate)
           textViewLa.text = "\(latitudeText)\n\(longitudeText)"
-        viewModel.fetchRooms(lawdCd: "11110")
-        addMarkersForRooms()
+        
+       
     }
     func addMarkersForRooms() {
         let geocoder = CLGeocoder()
