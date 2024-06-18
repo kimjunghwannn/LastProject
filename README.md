@@ -28,3 +28,9 @@
 ![image](https://github.com/kimjunghwannn/LastProject/assets/157611169/10f2ae8e-863e-425f-9790-b858d39185ca)
 
 
+
+<h1>기타</h1>
+지도에 마커를 띄우는 건 기능에서 마커가 하나만 띄워지는 오류가 있습니다 <br>
+원룸 자료는 데이터공공포털에 서울 전/월세 자료를 사용하였습니다
+
+
