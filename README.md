@@ -9,4 +9,9 @@
 메인화면 <br>
 
 ![Simulator Screenshot - iPhone 15 Pro - 2024-06-18 at 14 25 07](https://github.com/kimjunghwannn/LastProject/assets/157611169/0e73c498-9e88-45c6-8b62-306ee8827d6a)
+<br>
+
+지도 이동시(위도 ,경도값 변화)
+
+![Uploading 무제.png…]()
 
