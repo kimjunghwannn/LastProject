@@ -19,25 +19,25 @@ class ViewController: UIViewController , UITextViewDelegate{
         setupButton()
     }
     func setupMapKitView() {
-            mapView = MKMapView()
-            mapView.translatesAutoresizingMaskIntoConstraints = false
-            
-            view.addSubview(mapView)
-            NSLayoutConstraint.activate([
-                mapView.topAnchor.constraint(equalTo: view.topAnchor),
-                mapView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-                mapView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-                mapView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5) // 화면 상단 절반 차지
-            ])
-            
-            let initialLocation = CLLocation(latitude: 37.5665, longitude: 126.9780)
-            let regionRadius: CLLocationDistance = 10000
-            let coordinateRegion = MKCoordinateRegion(center: initialLocation.coordinate,
-                                                      latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
-            mapView.setRegion(coordinateRegion, animated: true)
-            mapView.showsUserLocation = true
-            mapView.delegate = self
-        }
+        mapView = MKMapView()
+        mapView.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.addSubview(mapView)
+        NSLayoutConstraint.activate([
+            mapView.topAnchor.constraint(equalTo: view.topAnchor),
+            mapView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            mapView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            mapView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5) // 화면 상단 절반 차지
+        ])
+        
+        let initialLocation = CLLocation(latitude: 37.5665, longitude: 126.9780)
+        let regionRadius: CLLocationDistance = 10000
+        let coordinateRegion = MKCoordinateRegion(center: initialLocation.coordinate,
+                                                  latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
+        mapView.setRegion(coordinateRegion, animated: true)
+        mapView.showsUserLocation = true
+        mapView.delegate = self
+    }
     func setupTextView() {
         textViewLa = UITextView()
         textViewLa.translatesAutoresizingMaskIntoConstraints = false
@@ -184,29 +184,24 @@ extension ViewController: MKMapViewDelegate {
         let centerLatitude = mapView.region.center.latitude
         let centerCoordinate = mapView.region.center.longitude
         // 위도와 경도 값을 텍스트뷰에 표시
-          let latitudeText = String(format: "위도: %.6f", centerLatitude)
-          let longitudeText = String(format: "경도: %.6f", centerCoordinate)
-          textViewLa.text = "\(latitudeText)\n\(longitudeText)"
+        let latitudeText = String(format: "위도: %.6f", centerLatitude)
+        let longitudeText = String(format: "경도: %.6f", centerCoordinate)
+        textViewLa.text = "\(latitudeText)\n\(longitudeText)"
         
-       
+        
     }
     func addMarkersForRooms() {
         let geocoder = CLGeocoder()
         
-        // DispatchGroup 생성
-        let dispatchGroup = DispatchGroup()
-        
         for room in viewModel.rooms {
             let address = "\(room.dong) \(room.jibun)"
-            print(address)
-            // DispatchGroup에 진입
-            dispatchGroup.enter()
-            
+            print("go")
             geocoder.geocodeAddressString(address) { [weak self] placemarks, error in
                 guard let self = self else { return }
-                defer {
-                    // DispatchGroup에서 나옴
-                    dispatchGroup.leave()
+                
+                if let error = error {
+                    print("Geocode error for address \(address): \(error.localizedDescription)")
+                    return
                 }
                 
                 guard let placemark = placemarks?.first, let location = placemark.location else {
@@ -214,28 +209,23 @@ extension ViewController: MKMapViewDelegate {
                     return
                 }
                 
+                print("Placemark: \(placemark)")
+                print("Location: \(location)")
+                
                 let annotation = MKPointAnnotation()
                 annotation.coordinate = location.coordinate
                 annotation.title = room.name
                 annotation.subtitle = "Monthly Rent: \(room.mothly_rent) 만원"
                 
-                // DispatchQueue.main에서 지도 업데이트
                 DispatchQueue.main.async {
                     self.mapView.addAnnotation(annotation)
                 }
             }
         }
-        
-        // 모든 비동기 작업 완료를 기다림
-        dispatchGroup.notify(queue: .main) {
-            // 모든 주소 출력
-            for room in self.viewModel.rooms {
-                let address = "\(room.dong) \(room.jibun)"
-                print(address)
-            }
-            print("All annotations added")
-        }
     }
+    
 }
+    
+
 
 
