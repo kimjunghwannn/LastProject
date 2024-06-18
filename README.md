@@ -7,6 +7,5 @@
 
 기능 동작
 메인화면 <br>
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-18 at 14 23 14](https://github.com/kimjunghwannn/LastProject/assets/157611169/9b24f5eb-7896-4f78-a5dc-4b424e938d2b)
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-18 at 14 25 07](https://github.com/kimjunghwannn/LastProject/assets/157611169/0e73c498-9e88-45c6-8b62-306ee8827d6a)
 
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-18 at 14 25 07](https://github.com/kimjunghwannn/LastProject/assets/157611169/b3e4675a-2f5b-4adf-a1d4-465ef4ab34e0)
