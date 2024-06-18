@@ -8,5 +8,4 @@
 기능 동작
 메인화면 <br>
 ![Simulator Screenshot - iPhone 15 Pro - 2024-06-18 at 14 23 14](https://github.com/kimjunghwannn/LastProject/assets/157611169/9b24f5eb-7896-4f78-a5dc-4b424e938d2b)
-
-
+<img src="[https://user-images.githubusercontent.com/50612841/130802756-cc322b08-06e5-4847-959b-2bd28e6ef3de.jpeg](https://github.com/kimjunghwannn/LastProject/assets/157611169/9b24f5eb-7896-4f78-a5dc-4b424e938d2b)" width="200" height="200"/>
